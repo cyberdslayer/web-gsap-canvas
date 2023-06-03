@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #c03232;
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #e8e8e8;
+}
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #b700ff;
+}
+#canvas{
+    max-width: 100vw;
+    max-height: 100vh;
+    z-index: 9;
+    position: relative;
+}
